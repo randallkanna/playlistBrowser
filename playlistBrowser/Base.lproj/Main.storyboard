@@ -5,7 +5,7 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Playlist Master View Controller-->
+        <!--Playlists-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="PlaylistMasterViewController" sceneMemberID="viewController">
@@ -24,7 +24,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="qng-CC-HVY" kind="modal" id="FOH-3Y-Hpb"/>
+                                    <segue destination="qng-CC-HVY" kind="push" id="FOH-3Y-Hpb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -34,13 +34,13 @@
                             <constraint firstAttribute="trailingMargin" secondItem="an8-xq-skR" secondAttribute="trailing" constant="121" id="chR-p8-jlD"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Fpd-l1-tGk"/>
+                    <navigationItem key="navigationItem" title="Playlists" id="Fpd-l1-tGk"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="720" y="137"/>
         </scene>
-        <!--Playlist Detail View Controller-->
+        <!--Artists-->
         <scene sceneID="4sy-6v-9tz">
             <objects>
                 <viewController id="qng-CC-HVY" customClass="PlaylistDetailViewController" sceneMemberID="viewController">
@@ -53,6 +53,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.29803921570000003" green="0.68235294120000001" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Artists" id="bxr-eY-RGo"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eEm-p0-8tr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
