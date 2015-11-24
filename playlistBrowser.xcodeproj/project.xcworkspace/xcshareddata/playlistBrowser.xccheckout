@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>7099B888-9880-4E1C-AAE1-3B6B87ED76BE</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>playlistBrowser</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>D2FFFE8102D0B07909FA58502028973FAF4D0554</key>
 		<string>https://github.com/randallkanna/playlistBrowser.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>playlistBrowser.xcodeproj/project.xcworkspace</string>
+	<string>playlistBrowser.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>D2FFFE8102D0B07909FA58502028973FAF4D0554</key>
