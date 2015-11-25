@@ -7,7 +7,23 @@
 //
 
 #import "Playlist.h"
+#import "MusicLibrary.h"
 
 @implementation Playlist
+
+- (instancetype)initWithIndex:(NSUInteger)index {
+    self = [super init];
+    
+    if (self) {
+        MusicLibrary *musicLibrary = [[MusicLibrary alloc] init];
+        NSArray *library = musicLibrary.library;
+        
+        NSDictionary *playlistDictionary = library[index];
+        
+        _playlistTitle = [playlistDictionary objectForKey:kTitle];
+        _playlistDescription = [playlistDictionary objectForKey:kDescription];
+    }
+    return self;
+}
 
 @end
