@@ -15,6 +15,7 @@
 		B5AFE44F1C03F7A00026AE09 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5AFE44D1C03F7A00026AE09 /* LaunchScreen.xib */; };
 		B5AFE45B1C03F7A00026AE09 /* playlistBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AFE45A1C03F7A00026AE09 /* playlistBrowserTests.m */; };
 		B5AFE4661C03F9750026AE09 /* PlaylistDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AFE4651C03F9750026AE09 /* PlaylistDetailViewController.m */; };
+		B5AFE4691C0562C30026AE09 /* MusicLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AFE4681C0562C30026AE09 /* MusicLibrary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		B5AFE45A1C03F7A00026AE09 /* playlistBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = playlistBrowserTests.m; sourceTree = "<group>"; };
 		B5AFE4641C03F9750026AE09 /* PlaylistDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistDetailViewController.h; sourceTree = "<group>"; };
 		B5AFE4651C03F9750026AE09 /* PlaylistDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaylistDetailViewController.m; sourceTree = "<group>"; };
+		B5AFE4671C0562C30026AE09 /* MusicLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicLibrary.h; sourceTree = "<group>"; };
+		B5AFE4681C0562C30026AE09 /* MusicLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicLibrary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				B5AFE4461C03F7A00026AE09 /* PlaylistMasterViewController.m */,
 				B5AFE4641C03F9750026AE09 /* PlaylistDetailViewController.h */,
 				B5AFE4651C03F9750026AE09 /* PlaylistDetailViewController.m */,
+				B5AFE4671C0562C30026AE09 /* MusicLibrary.h */,
+				B5AFE4681C0562C30026AE09 /* MusicLibrary.m */,
 				B5AFE4481C03F7A00026AE09 /* Main.storyboard */,
 				B5AFE44B1C03F7A00026AE09 /* Images.xcassets */,
 				B5AFE44D1C03F7A00026AE09 /* LaunchScreen.xib */,
@@ -228,6 +233,7 @@
 				B5AFE4661C03F9750026AE09 /* PlaylistDetailViewController.m in Sources */,
 				B5AFE4441C03F7A00026AE09 /* AppDelegate.m in Sources */,
 				B5AFE4411C03F7A00026AE09 /* main.m in Sources */,
+				B5AFE4691C0562C30026AE09 /* MusicLibrary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +428,7 @@
 				B5AFE4601C03F7A00026AE09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5AFE4611C03F7A00026AE09 /* Build configuration list for PBXNativeTarget "playlistBrowserTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +437,7 @@
 				B5AFE4631C03F7A00026AE09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
