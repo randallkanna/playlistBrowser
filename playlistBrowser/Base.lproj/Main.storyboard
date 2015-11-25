@@ -66,6 +66,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Artists" id="bxr-eY-RGo"/>
+                    <connections>
+                        <outlet property="buttonPressLabel" destination="Obe-vQ-BmW" id="HUd-x6-IJp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eEm-p0-8tr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
