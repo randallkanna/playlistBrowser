@@ -18,4 +18,7 @@
 @property (strong, nonatomic) NSArray *playlistArtists;
 @property (strong, nonatomic) UIColor *backgroundColor;
 
+// exposes the method to any other class that uses the playlist class
+- (instancetype)initWithIndex:(NSUInteger)index;
+
 @end
